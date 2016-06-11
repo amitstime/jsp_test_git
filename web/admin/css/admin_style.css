@@ -1,0 +1,109 @@
+
+body {
+    background-color: #f4f3f3;
+}
+#container {
+    border: 1px solid #cdcdcd;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 13px;
+    margin: 0 auto;
+    width: 1000px;
+}
+#header {
+    background-color: #4f8ecb;
+    border-bottom: 1px solid grey;
+    height: 100px;
+    padding: 10px;
+    width: 980px;
+}
+#header .logo {
+    color: white;
+    float: left;
+    font-weight: bold;
+    height:100px;
+}
+#header .company-name {
+    float: left;
+    padding-left: 270px;
+    /* padding-top: 30px; */
+}
+#header .company-name h2 {
+    color: white;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 28px;
+}
+#header .user-login-info {
+    color: cyan;
+    float: right;
+    text-align: right;
+}
+#left {
+    background-color: #f4f3f3;
+    float: left;
+    font-size: 13px;
+    min-height: 400px;
+    padding: 10px;
+    width: 180px;
+}
+#left .menu {
+    height: 20px;
+    padding: 3px;
+    width: 170px;
+}
+#left .menu a {
+    color: #838383;
+    text-decoration: none;
+}
+#left .menu a:hover {
+    color: #bd3327;
+}
+#main {
+    background: none repeat scroll 0 0 white;
+    border-left: 1px solid #cdcdcd;
+    float: left;
+    font-size: 13px;
+    min-height: 612px;
+    padding: 10px;
+    width: 779px;
+}
+#main h3 {
+    color: #4f8ecb;
+    font-size: 14px;
+}
+#main p {
+    color: #333;
+}
+#main table th {
+    background-color: #4f8ecb;
+    color: white;
+}
+#main table tr .alt_bgcolor {
+    background: none repeat scroll 0 0 white;
+}
+#main table td{
+    font-size:13px;
+}
+.clear_float {
+    clear: both;
+}
+#footer {
+    background-color: #4f8ecb;
+    border-top: 1px solid gray;
+    color: white;
+    font-size: 12px;
+    height: 30px;
+    padding-top: 8px;
+    text-align: center;
+    width: 1000px;
+}
+h1 {
+    color: #3b59b7;
+    font-size: 14px;
+    padding: 0;
+}
+
+.user-login-info a
+{
+    color:White;
+    text-decoration:none;
+}
